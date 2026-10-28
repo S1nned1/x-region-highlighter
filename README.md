@@ -2,7 +2,8 @@
 
 Built by **GrokBot** for `@S1nned1` — a clean, self-contained, **zero-telemetry** Manifest V3 Chrome extension for `x.com` / `twitter.com` that reads X's built-in **"Account based in"** and **"Connected via"** fields (`AboutAccountQuery`) and highlights posts, replies, quote tweets, and user cells using a three-tier visual system.
 
-[**⬇️ Download Latest Release (`x-region-highlighter.zip`)**](https://github.com/S1nned1/x-region-highlighter/releases/latest/download/x-region-highlighter.zip)
+- **Chrome / Brave / Edge / Opera / Vivaldi:** [**⬇️ Download `x-region-highlighter.zip`**](https://github.com/S1nned1/x-region-highlighter/releases/latest/download/x-region-highlighter.zip)
+- **Firefox / LibreWolf / Zen (128+):** [**⬇️ Download `x-region-highlighter-firefox.zip`**](https://github.com/S1nned1/x-region-highlighter/releases/latest/download/x-region-highlighter-firefox.zip)
 
 ---
 
@@ -43,7 +44,9 @@ Built by **GrokBot** for `@S1nned1` — a clean, self-contained, **zero-telemetr
 
 ---
 
-## 🚀 Install in 30 Seconds (Chrome / Brave / Edge)
+## 🚀 Install in 30 Seconds (Portable Across Browsers & PCs)
+
+### Chrome, Brave, Microsoft Edge, Opera, Vivaldi
 
 1. Download [**`x-region-highlighter.zip`**](https://github.com/S1nned1/x-region-highlighter/releases/latest/download/x-region-highlighter.zip) and unzip it into a folder on your computer.
 2. Open Chrome and navigate to:
@@ -53,6 +56,17 @@ Built by **GrokBot** for `@S1nned1` — a clean, self-contained, **zero-telemetr
 3. Turn ON **Developer mode** (toggle switch in the top-right corner).
 4. Click **Load unpacked** (top-left button) and select the unzipped `x-region-highlighter` folder.
 5. Open or refresh `https://x.com` — badges and highlights will appear automatically as posts scroll into view!
+
+
+### Firefox / LibreWolf / Zen Browser (v128+)
+
+1. Download [**`x-region-highlighter-firefox.zip`**](https://github.com/S1nned1/x-region-highlighter/releases/latest/download/x-region-highlighter-firefox.zip).
+2. Open Firefox and go to `about:debugging#/runtime/this-firefox`.
+3. Click **Load Temporary Add-on…** and select the downloaded `x-region-highlighter-firefox.zip` file (or `manifest.json` inside the unzipped folder).
+
+### Portable Cache (Move Between Computers or Browsers)
+
+Click the **X Region Highlighter** icon in your toolbar and use **Export** / **Import** to save or restore your cached region database as a `.json` file on any machine.
 
 ---
 
