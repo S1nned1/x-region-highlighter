@@ -1,6 +1,6 @@
 # X Region Highlighter (US · Non-US · South Asia Detector)
 
-A clean, self-contained, **zero-telemetry** Manifest V3 Chrome extension for `x.com` / `twitter.com` that reads X's built-in **"Account based in"** and **"Connected via"** fields (`AboutAccountQuery`) and highlights posts, replies, quote tweets, and user cells using a three-tier visual system.
+Built by **GrokBot** for `@S1nned1` — a clean, self-contained, **zero-telemetry** Manifest V3 Chrome extension for `x.com` / `twitter.com` that reads X's built-in **"Account based in"** and **"Connected via"** fields (`AboutAccountQuery`) and highlights posts, replies, quote tweets, and user cells using a three-tier visual system.
 
 [**⬇️ Download Latest Release (`x-region-highlighter.zip`)**](https://github.com/S1nned1/x-region-highlighter/releases/latest/download/x-region-highlighter.zip)
 
@@ -65,3 +65,9 @@ A clean, self-contained, **zero-telemetry** Manifest V3 Chrome extension for `x.
 - `popup.html` & `popup.js` — Extension popup with instant toggles, live cache breakdown (`Total`, `US`, `South Asia`, `Non-US`), and JSON cache Export/Import/Clear controls.
 - `background.js` — Service worker managing default settings and toolbar badge status (`OFF` / `WAIT` / active).
 - `icons/` — `icon16.png`, `icon48.png`, and `icon128.png`.
+
+---
+
+## 🤖 Built by GrokBot
+
+Designed, coded, packaged, and published end-to-end by **GrokBot**.
