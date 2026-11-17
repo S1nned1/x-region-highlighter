@@ -42,6 +42,13 @@ Built by **GrokBot** for `@S1nned1` — a clean, self-contained, **zero-telemetr
 - **No "Community Cache" or analytics:** Unlike third-party store extensions that transmit the `@handles` on your screen to external Cloudflare workers, all lookups and caching stay **100% inside your browser** (`chrome.storage.local` with a 30-day TTL).
 - **No silent auto-updates:** Because you load it locally as an unpacked extension, the code on your machine never changes unless you update it yourself.
 
+### Is this safe?
+
+- **No secrets in the code.** The `Authorization` value in `page-script.js` is X's own public web-client token, the same one built into x.com for every visitor. It is not a private key and gives no access on its own; lookups only work because they ride on your already-logged-in X session in that browser tab.
+- **Nothing leaves your browser except requests to X itself.** The only other address in the code is X's emoji image host (`abs-0.twimg.com`).
+- **Rate limits.** Location lookups go through X's normal site, so scrolling fast through lots of new accounts can hit X's rate limits. When that happens the extension pauses automatically (the toolbar badge shows `WAIT`) and resumes once X allows it. It does not affect your account beyond that temporary pause.
+- **Read it yourself.** It's a handful of plain, unminified JavaScript files with no build step and no dependencies, so you can review exactly what you're loading.
+
 ---
 
 ## 🚀 Install in 30 Seconds (Portable Across Browsers & PCs)
